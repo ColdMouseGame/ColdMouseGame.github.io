@@ -1,0 +1,108 @@
+body
+{
+    margin: 0px;
+}
+
+section
+{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    flex-direction: row;
+}
+.post_sec
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+}
+
+aside
+{
+    padding: 20px;
+    background-color: #f1f1f1;
+    flex: 15%;
+}
+
+.left_side
+{
+    width: 15%;
+    font-size: 85%;
+}
+.center_side
+{
+    width: 70%;
+    padding-top: 10px;
+}
+.right_side
+{
+    width: 15%;
+}
+
+.profilimg
+{
+    border-radius: 10px;
+    border: 3px solid #465fff;
+    box-shadow: 0 0 10px;
+}
+
+.main
+{
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    flex: 85%;
+}
+
+.secthead
+{
+    font-size: 20px;
+}
+
+.post_name
+{
+    text-align: center;
+    color: rgb(249, 103, 0);
+}
+.postitem
+{
+    text-align: center;
+    border: 3px solid gray;
+    background-color: lightgray;
+    padding: 5px;
+}
+.postimgleft
+{
+    float: left;
+    padding-right: 5px;
+    width: 5%;
+}
+.postimgright
+{
+    display: block;
+    float: right;
+    padding: 10px;
+    max-width: 30%;
+    max-height: 400px;
+}
+.posttext
+{
+    color: black;
+    text-align: left;
+    font-size: 25px;
+}
+.post_items
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+
+@media screen and (max-width:700px) {
+    sectio, nav {
+        flex-direction: column;
+    }
+}
