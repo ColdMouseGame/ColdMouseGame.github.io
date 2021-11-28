@@ -1,3 +1,8 @@
+body
+{
+    margin: 0px;
+}
+
 section
 {
     display: flex;
@@ -23,7 +28,7 @@ aside
 .left_side
 {
     width: 15%;
-    font-size: 80%;
+    font-size: 85%;
 }
 .center_side
 {
@@ -37,8 +42,8 @@ aside
 
 .profilimg
 {
-    border-radius: 100px;
-    border: 3px solid #1abc9c;
+    border-radius: 10px;
+    border: 3px solid #465fff;
     box-shadow: 0 0 10px;
 }
 

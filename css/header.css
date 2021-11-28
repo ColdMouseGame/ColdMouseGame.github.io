@@ -3,7 +3,7 @@ header
     height: 80px;
     padding: 20px;
     text-align: center;
-    background: #1abc9c;
+    background: #465fff;
     color: white;
 }
 .headertext
@@ -32,8 +32,4 @@ a
     padding-top:0px;
     text-decoration: none;
     text-align: center;
-}
-.headerlink:hover
-{
-    color:#1abc9c;
 }
